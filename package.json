@@ -1,12 +1,12 @@
 {
-  "name": "grunt-contrib-uglify-es",
+  "name": "@gastromatic/grunt-contrib-uglify-es",
   "description": "Minify JavaScript files with UglifyJS",
   "version": "3.3.0",
   "author": {
     "name": "Grunt Team",
     "url": "http://gruntjs.com/"
   },
-  "repository": "gruntjs/grunt-contrib-uglify",
+  "repository": "gastromatic/grunt-contrib-uglify",
   "license": "MIT",
   "engines": {
     "node": ">=0.10.0"
@@ -14,6 +14,9 @@
   "main": "tasks/uglify.js",
   "scripts": {
     "test": "grunt test"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "dependencies": {
     "chalk": "^1.0.0",
